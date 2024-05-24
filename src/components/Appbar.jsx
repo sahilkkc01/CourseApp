@@ -54,7 +54,7 @@ export default function Appbar() {
             }}
             variant={"h6"}
           >
-            Alemeno 
+            Alemeno
           </Typography>
         </div>
         <div style={{ display: "flex" }}>
