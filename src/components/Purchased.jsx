@@ -10,7 +10,7 @@ function PurchasedCourses() {
 
   useEffect(() => {
     setIsLoading(true);
-    axios.get("http://localhost:3000/users/purchasedCourses", {
+    axios.get("https://course-app-server-five.vercel.app/users/purchasedCourses", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("token"),
       },

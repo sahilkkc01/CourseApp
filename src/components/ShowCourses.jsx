@@ -17,7 +17,7 @@ function ShowCourses() {
 
   useEffect(() => {
     setIsLoading(true);
-    axios.get("http://localhost:3000/users/courses/", {
+    axios.get("https://course-app-server-five.vercel.app/users/courses/", {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },

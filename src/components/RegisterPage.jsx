@@ -28,7 +28,7 @@ function RegisterPage() {
       setLoading(true); // Set loading to true during signup
 
       const res = await axios.post(
-        "http://localhost:3000/users/signup",
+        "https://course-app-server-five.vercel.app/users/signup",
         {
           username: email,
           password: password,

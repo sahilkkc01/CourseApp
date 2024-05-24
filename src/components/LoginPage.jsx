@@ -26,7 +26,7 @@ function LoginPage() {
       setIsLoading(true); // Set loading to true before making the request
 
       const res = await axios.post(
-        "http://localhost:3000/users/login",
+        "https://course-app-server-five.vercel.app/users/login",
         {
           username: user.email,
           password: user.password,
